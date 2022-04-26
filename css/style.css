@@ -8,26 +8,19 @@ padding:0;
 a{
     font-family:'Libre Bodoni', serif; 
 }
-.navbar{
-    color:white;
-}
+
 h1{
-    color:white; 
+
     font-family: 'Roboto', sans-serif;
 }
-.text{
-    color:white;
-}
+
 
 .btn{
     padding:15px 20px;
 }
-.myclass{
-    /* padding:15px 50px; */
-    
-    opacity:0.5
+.jumbotron{
+    opacity:0.5;
 }
-
 .section-1, .section-2, .section-3, .section-4{
     font-family:'Roboto', sans-serif;
     min-height: 100vh;

@@ -1,8 +1,71 @@
-.roboto{
+* {
+margin:0;
+padding:0;
+}
+/* .roboto{
+    font-family: 'Roboto', sans-serif;
+} */
+a{
+    font-family:'Libre Bodoni', serif; 
+}
+.navbar{
+    color:white;
+}
+h1{
+    color:white; 
     font-family: 'Roboto', sans-serif;
 }
+.text{
+    color:white;
+}
 
-.jumbotron{
-    font-family:'Libre Bodoni', serif;
-    height:100vh;
+.btn{
+    padding:15px 20px;
+}
+.myclass{
+    /* padding:15px 50px; */
+    
+    opacity:0.5
+}
+
+.section-1, .section-2, .section-3, .section-4{
+    font-family:'Roboto', sans-serif;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-1{
+    background-image: url("/IMG/crowd-festival.jpg");
+    /* display:flex;
+    justify-content:center;
+    align-items:center; */
+
+}
+.section-2{
+    background-image: url("/IMG/fireworks-stage.jpg");
+    display:flex;
+    flex-direction:column;
+    justify-content:center; 
+    align-self:center;
+
+}
+.section-3{
+    background-image: url("/IMG/purple-stage-fireworks.jpg");
+    display:flex;
+    flex-direction:column;
+    justify-content:center; 
+    align-self:center;
+}
+.section-4{
+    background-image: url("/IMG/air-shots.jpg");
+    display:flex;
+    flex-direction:column;
+    justify-content:center; 
+    align-self:center;
+}
+.fa-brands{
+    color:indianred;
+    font-size:60px;
 }
